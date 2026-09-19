@@ -18,12 +18,27 @@ env*/
 .DS_Store
 Thumbs.db
 
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+dist/
+build/
+*.local
+
+# Logs
+*.log
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
 
 # Generated data (optional, keep if you want)
 # data/elective_recommendation_students.csv
 
 # Streamlit
 .streamlit/
-
-# Logs
-*.log
